@@ -477,9 +477,9 @@ ul.tags li a, ul.social_icon li a,
   
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   #hero {
-    height: 65vh;
+    height: 40vh;
     padding: 100px 0 60px 0;
   }
   #hero .container {
@@ -488,7 +488,7 @@ ul.tags li a, ul.social_icon li a,
   #hero .intro-img {
     width: auto;
   }
-} */
+}
 
 @media (min-width: 992px) {
   #hero .intro-info {
