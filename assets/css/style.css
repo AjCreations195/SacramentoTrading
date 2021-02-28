@@ -482,7 +482,8 @@ ul.tags li a, ul.social_icon li a,
     background-size: cover;
     position: relative;
     object-fit: contain;
-height:30vh;
+height:45vh;
+margin-bottom: -5rem;
   }
   #hero .container {
     background-size: cover;
