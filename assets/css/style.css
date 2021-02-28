@@ -256,10 +256,6 @@ ul.tags li a, ul.social_icon li a,
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
 
 .main-nav, .main-nav * {
   margin: 0;
@@ -482,14 +478,14 @@ ul.tags li a, ul.social_icon li a,
   #hero2 .container { height: auto !important;}}
 @media (max-width: 768px) {
   #hero {
-    height: 40vh;
+    height: 30vh;
     padding: 100px 0 60px 0;
     background-size: cover;
     position: relative;
-    object-fit: cover;
+    object-fit: contain;
   }
   #hero .container {
-    height: 40vh; background-size: cover;
+    height: 30vh; background-size: cover;
     object-fit: cover;
   }
   #hero .intro-img {
