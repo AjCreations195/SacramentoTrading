@@ -482,8 +482,7 @@ ul.tags li a, ul.social_icon li a,
     background-size: cover;
     position: relative;
     object-fit: contain;
-height:42vh;
-
+height:35vh;
   }
   #hero .container {
     background-size: cover;
@@ -1688,12 +1687,12 @@ margin-left: auto;
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  
   position: relative;
   margin: auto;
   background-size: cover;
   object-fit: contain;
-  height: 40vh;
+ 
 }
 
 /* Hide the images by default */
