@@ -482,11 +482,11 @@ ul.tags li a, ul.social_icon li a,
     background-size: cover;
     position: relative;
     object-fit: contain;
-height:30vh;
+height:25vh;
   }
   #hero .container {
-     height: auto !important; background-size: cover;
-    object-fit: cover;
+    background-size: cover;
+    object-fit: contain;
   }
   #hero .intro-img {
     width: auto;
