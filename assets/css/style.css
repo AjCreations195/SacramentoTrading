@@ -478,15 +478,16 @@ ul.tags li a, ul.social_icon li a,
   #hero2 .container { height: auto !important;}}
 @media (max-width: 768px) {
   #hero {
-    height: 40vh;
     padding: 100px 0 60px 0;
     background-size: cover;
     position: relative;
     object-fit: contain;
+height: auto !important;
   }
   #hero .container {
     height: 30vh; background-size: cover;
     object-fit: cover;
+ height: auto !important;
   }
   #hero .intro-img {
     width: auto;
