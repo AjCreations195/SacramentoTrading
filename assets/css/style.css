@@ -478,12 +478,19 @@ ul.tags li a, ul.social_icon li a,
 }
 
 @media (max-width: 768px) {
+  #hero2 {  height: 35vh;  padding: 100px 0 60px 0;}
+  #hero2 .container { height: auto !important;}}
+@media (max-width: 768px) {
   #hero {
     height: 40vh;
     padding: 100px 0 60px 0;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
   }
   #hero .container {
-    height: auto !important;
+    height: 40vh; background-size: cover;
+    object-fit: cover;
   }
   #hero .intro-img {
     width: auto;
