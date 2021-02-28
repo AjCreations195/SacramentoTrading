@@ -487,6 +487,7 @@ height:40vh;
   #hero .container {
     background-size: cover;
     object-fit: contain;
+    height: auto !important;
   }
   #hero .intro-img {
     width: auto;
