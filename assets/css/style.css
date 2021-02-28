@@ -231,6 +231,8 @@ ul.tags li a, ul.social_icon li a,
   
 }
 
+
+
 #header .logo a {
   color: black;
   font-weight: 600;
@@ -247,7 +249,7 @@ ul.tags li a, ul.social_icon li a,
     top: 0;
   }
   #header .logo {
-    font-size: 28px;
+    font-size: 21px;
   }
 }
 
@@ -482,7 +484,7 @@ ul.tags li a, ul.social_icon li a,
     background-size: cover;
     position: relative;
     object-fit: contain;
-height:250px;
+height:230px;
   }
   #hero .container {
     background-size: cover;
