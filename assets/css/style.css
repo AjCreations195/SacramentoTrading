@@ -478,11 +478,11 @@ ul.tags li a, ul.social_icon li a,
   #hero2 .container { height: auto !important;}}
 @media (max-width: 768px) {
   #hero {
-    padding: 110px 0 60px 0;
+    padding: 110px 0 0 0;
     background-size: cover;
     position: relative;
     object-fit: contain;
-height:45vh;
+height:40vh;
   }
   #hero .container {
     background-size: cover;
