@@ -257,6 +257,7 @@ ul.tags li a, ul.social_icon li a,
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 
+
 .main-nav, .main-nav * {
   margin: 0;
   padding: 0;
@@ -460,7 +461,6 @@ ul.tags li a, ul.social_icon li a,
 .mobile-nav-active .mobile-nav-toggle i {
   color: rgb(0, 0, 0);
 }
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -478,15 +478,15 @@ ul.tags li a, ul.social_icon li a,
   #hero2 .container { height: auto !important;}}
 @media (max-width: 768px) {
   #hero {
-    height: 20vh;
     padding: 100px 0 60px 0;
     background-size: cover;
     position: relative;
     object-fit: contain;
+height:35vh;
   }
   #hero .container {
-    height: 20vh; background-size: cover;
-    object-fit: cover;
+    background-size: cover;
+    object-fit: contain;
   }
   #hero .intro-img {
     width: auto;
