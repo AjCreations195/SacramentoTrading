@@ -360,14 +360,14 @@ ul.tags li a, ul.social_icon li a,
 /* Mobile Navigation */
 .mobile-nav {
   position: fixed;
-  top:0;
+  top: 0;
   bottom: 0 ;
   z-index: 9999;
   overflow-y: auto;
   left: -420px;
   width: 420px;
   padding-top: 20px;
-  padding-left:11rem ;
+  padding-left:9rem ;
   /* background: rgba(214, 26, 26, 0.8);; */
   transition: 0.4s;
 }
@@ -479,7 +479,7 @@ ul.tags li a, ul.social_icon li a,
 
 @media (max-width: 768px) {
   #hero {
-    height: 50vh;
+    height: 65vh;
     padding: 100px 0 60px 0;
   }
   #hero .container {
@@ -732,20 +732,13 @@ section {
    
 }
 .bg-image{
-  background-image: url("../img/pexels-mitchell-luo-3694711.jpg");
+  /* background-image: url("../img/pexels-mitchell-luo-3694711.jpg"); */
+  background: repeating-radial-gradient(closest-side at 25px 35px, #ccc 15%, #eee 40%);
+  background-size:60px 60px;
   height: 50%; 
    background-position: center;
    background-repeat:repeat;
    background-size: ;
-}
-.bg-image2{
-  background-image: url("../img/background_edited.jpg ");
-  height: 50%; 
-   background-position: center;
-   background-repeat:;
-   background-size:cover ;
-   
-   
 }
 
 #services .box {
@@ -965,7 +958,7 @@ section {
 --------------------------------*/
 #features {
   padding: 80px 0;
-  padding-left: 35px;
+ 
 }
 
 #features h4 {
@@ -981,7 +974,10 @@ section {
  }
  .featuresdiv1{
    padding: 20px;
- 
+
+ display:table-cell;
+ vertical-align:middle;
+ text-align:center;
  }
  .featuresdiv2{
    margin-top: auto;
@@ -1252,10 +1248,9 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: linear-gradient(rgba(110, 230, 80, 0.8) , rgba(115, 197, 238, 0.8));
+  background: linear-gradient( rgb(54, 53, 53) , rgb(93, 93, 95),rgb(54, 53 , 53));
  min-height: 40px;
   margin-top: 0px;
-  
 }
 
 @media (max-width: 992px) {
@@ -1666,8 +1661,7 @@ section {
 }
 .container-div{
  
-  opacity: 0.7;
-  background: linear-gradient(rgba(77, 160, 56) , rgba(65, 133, 167));
+  background: linear-gradient(rgba(115, 228, 87, 0.8) , rgba(103, 187, 230, 0.8));
 }
 /* 
 .container-div text-h3{
