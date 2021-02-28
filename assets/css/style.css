@@ -1691,6 +1691,7 @@ margin-left: auto;
   margin: auto;
   background-size: cover;
   object-fit: contain;
+  height: 40vh;
 }
 
 /* Hide the images by default */
